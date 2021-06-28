@@ -1,0 +1,10 @@
+Las funciones tales como
+
+    strrev();
+    strupr();
+    strlwr();
+
+entre otras, el compilador de gcc no las tiene. Estas funciones no son parte del ANSI Standar
+se tienen que escribir las funciones por tu cuenta. (Son funciones para Windows) wakala
+
+    Para ir de mayusculas a minusculas se puede usar ctype.h

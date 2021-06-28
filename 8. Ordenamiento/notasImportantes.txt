@@ -1,0 +1,54 @@
+    Ordenamiento - Sort !!
+
+Diferentes conjuntos utilizados se pongan en un orden específico
+
+La ordenacion de datos (sort) es una operación consistente en disponer un conjunto de datos en algun
+determinado orden.
+
+Una coleccion de datos puede ser almacenada en memoria central o en archivos de datos externos
+guardados en unidades de almacenamiento (usb, DVD, etc.). Cuando los datos se guardan en memoria principal
+se llama ordenación interna; estos datos se alamacenan para tratamientos internos que se utilizan para la
+gestion masiva
+
+
+// METODO BURBUJA
+
+Algoritmo de ordenamiento. Revisa cada elemento de la lista que va a ser ordenada con el siguiente, intercambiando
+la posición si están en orden euqivocado. Es necesario revisar varias veces toda la lista hasta que no se necesiten
+más intercambios, lo cual significa que la lista está ordenada.
+
+Ejemplo:
+
+Si
+       numeroActual > numeroSiguiente
+       cambiar
+
+       Condicional y do-while
+
+
+// METODO POR INSERCIÓN
+
+Es una manera natural de ordenar del ser humano. Se puede usar facilmente para ordenar "cartas numeradas" de forma
+arbitraria. Requiere O(n^2) operaciones para ordenar una lista de n elementos
+
+Ejemplo:
+
+Si
+     numeroIzq > numeroActual
+     cambiar
+
+
+// METODO POR SELECCIÓN
+
+Es un algoritmo de ordenamiento que requiere un orden de O(n^2) operaciones para ordenar una lista de n números.
+· Buscar el minimo elemento de la lista
+· Intercambiarlo con el primer elemento
+· Buscar el mínimo del resto de la lista
+· Intercambiar con el segundo
+· Repetir n veces
+
+
+// METODO SHELL U ORDENACIÓN POR INSERCIÓN CON INCREMENTOS DECRECIENTES.
+
+Se considera una mejora del metodo de ordenación directa. Este metodo funciona por que da saltos mas grandes por lo
+que para mayor cantidad de datos se requiere un ordenamiento mas rápido.

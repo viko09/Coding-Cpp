@@ -1,0 +1,16 @@
+* Matrices o arreglos bidimencionales (tablas)
+
+Son un vector de vectores, se declaran similar a los vectores
+
+Se pone tipo de dato con un nombre y entre corchetes, numero de filas y entre
+otros corchetes las columnas.
+
+- ejemplo:
+
+variable nombre[filas][columnas];
+int numeros[2][3];
+char letras[3][2];
+
+La posición se cuenta desde cero
+int numeros[2][3] = {1,2,3
+                     4,5,6};
