@@ -31,6 +31,6 @@ int main(){
 
     cout<<"Lo has adivinado :)"<<endl;
     cout<<"Te tomó: "<<contador<<" intentos."<<endl;
-
+    cout<<"Prueba1"
     return 0;
 }
