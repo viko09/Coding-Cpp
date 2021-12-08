@@ -1,0 +1,34 @@
+// Concepto de Estructura.
+
+Es una colección de uno a mas tipos de elementos denominados campos, cada uno de los cuales
+puede ser un tipo de dato diferente.
+
+Supongase que se desea almacenar los datos de estrellas tales como su nombre, su energía, su edad y la fecha de
+descubrimiento
+
+La palabra reservada que se utiliza para llamar una estructura es "struct"
+
+struct collectionStars{
+    char Nombre;
+    float Energia;
+    int Edad;
+    char Fecha;
+};
+
+
+// Estructuras Anidadas
+
+    Una estructura dentro de otra
+
+struct collectionStars{
+    char Nombre;
+    float Energia;
+    int Edad;
+    char Fecha;
+};
+
+struct Nueva{
+    char Referencia;
+    int Año;
+    struct collectionStars basic_info;  // <---- Esta es una estructura anidada
+};

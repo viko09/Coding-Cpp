@@ -52,3 +52,31 @@ Es un algoritmo de ordenamiento que requiere un orden de O(n^2) operaciones para
 
 Se considera una mejora del metodo de ordenación directa. Este metodo funciona por que da saltos mas grandes por lo
 que para mayor cantidad de datos se requiere un ordenamiento mas rápido.
+
+Los pasos a seguir por el algoritmo para n elementos son
+Sea E el conjunto de n elementos de una lista, con n enteros
+    · n/2, considerando un incremento o salto entre los elementos de n/2
+    · Se clasifica cada grupo por separado, comparando parejas de elementos y si no estan ordenados se intercambian
+    · Se divide la lista en la mitad de grupos (n/4), con un salto entre elementos también mitad (n/4), y nuevamente
+    se clasifica cada grupo por separado
+    · Se divide sucesivamente hasta que el salto de elementos sea igual a 1
+
+n/2, n/4 ... n/n.
+
+se reduce la particion hasta que no exista ningun cambio y se encuentre ordenado completamente el conjunto
+
+n/2 se reduce hasta que no existan cambios
+
+// MÉTODO DE ORDENACIÓN RÁPIDA O QUICKSORT
+
+    El algoritmo divide los n elementos de un conjunto de datos en dos particiones, separadas por un elemento: una
+partición izquierda, un elemento central denominado pivote, y una partición derecha.
+La partición se hace de tal forma que todos los elementos de la primera sublista (partición izquierda) son menores
+que todos los elementos de la segunda sublista (partición derecha). Las dos sublistas se ordenan entonces
+independientemente. Consta de los siguientes pasos
+
+    · Seleccionar el elemento central de a[] como pivote
+    · Dividir los elementos restantes en izquierda y derecha, de modo que ningun elemento de la izquierda tenga una
+    clave mayor que el pivote y que ningun elemento a la derecha tenga una clave mas pequeña que el pivote
+    · Ordenar la partición izquierda utilizando quicksort recursivamente.
+    · Ordenar la partición derecha utilizando quicksort recursivamente.
