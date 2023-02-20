@@ -1,18 +1,18 @@
 // Concepto de Estructura.
 
-Es una colección de uno a mas tipos de elementos denominados campos, cada uno de los cuales
+Es una colección de uno a mas tipos de elementos denominados 'campos', cada uno de los cuales
 puede ser un tipo de dato diferente.
-
+Un arreglo era una collección del mismo tipo, y en las estructuras pueden ser diferentes
 Supongase que se desea almacenar los datos de estrellas tales como su nombre, su energía, su edad y la fecha de
-descubrimiento
+descubrimiento, etc
 
 La palabra reservada que se utiliza para llamar una estructura es "struct"
 
-struct collectionStars{
-    char Nombre;
-    float Energia;
-    int Edad;
-    char Fecha;
+struct nombreDeEstructura{
+    char campoCadena1[n];
+    float campoFlotante;
+    int campoEntero;
+    char campoCadena2[n];
 };
 
 

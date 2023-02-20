@@ -61,7 +61,7 @@ Sea E el conjunto de n elementos de una lista, con n enteros
     se clasifica cada grupo por separado
     · Se divide sucesivamente hasta que el salto de elementos sea igual a 1
 
-n/2, n/4 ... n/n.
+n/2, n/4 ... n/().
 
 se reduce la particion hasta que no exista ningun cambio y se encuentre ordenado completamente el conjunto
 

@@ -6,7 +6,8 @@ using namespace std;
 int main(){
     int n1;
     do {
-        cout<<"Ingresa el número: "<<endl; cin>>n1;
+        cout<<"Ingresa el número: "<<endl;
+        cin>>n1;
     } while ((n1 < 1) or (n1 > 10));
 
     for (int i = 1; i <= 20 ; ++i) {

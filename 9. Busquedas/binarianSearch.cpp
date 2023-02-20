@@ -5,6 +5,7 @@
 using namespace std;
 
 int main(){
+    // El arreglo debe estar ordenado de forma ascendente
     int data[] = {1, 2, 3, 4, 5, 6, 7, 8};
     int inf, sup, mitad, dato;
     char band = 'F';
